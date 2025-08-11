@@ -60,16 +60,16 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "友链",
-			url: "/friends/", // Internal links should not include the base path, as it is automatically added
-			external: false, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "赞助",
-			url: "/donate/", // Internal links should not include the base path, as it is automatically added
-			external: false, // Show an external link icon and will open in a new tab
-		},
+		//{
+			//name: "友链",
+			//url: "/friends/", // Internal links should not include the base path, as it is automatically added
+			//external: false, // Show an external link icon and will open in a new tab
+		//},
+		//{
+			//name: "赞助",
+			//url: "/donate/", // Internal links should not include the base path, as it is automatically added
+			//external: false, // Show an external link icon and will open in a new tab
+		//},
 		{
 			name: "统计",
 			url: "https://umami.2x.nz/share/ZyDjOrmjaBTlmGtd", // Internal links should not include the base path, as it is automatically added
@@ -85,20 +85,20 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "/favicon.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "二叉树树",
+	name: "不懂运维",
 	bio: "爱你所爱~ ❤",
-	links: [
-		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/325903362",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/afoim",
-		},
-	],
+	//links: [
+		//{
+			//name: "Bilibli",
+			//icon: "fa6-brands:bilibili",
+			//url: "https://space.bilibili.com/325903362",
+		//},
+		//{
+			//name: "GitHub",
+			//icon: "fa6-brands:github",
+			//url: "https://github.com/afoim",
+		//},
+	//],
 };
 
 export const licenseConfig: LicenseConfig = {
